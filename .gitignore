@@ -10,7 +10,7 @@ local_settings.py
 # db.sqlite3
 db.sqlite3-journal
 media
-**/migrations/*
+# **/migrations/*
 staticfiles/*
 logs/*
 .idea/*
@@ -35,8 +35,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+# lib/
+# lib64/
 parts/
 sdist/
 var/
