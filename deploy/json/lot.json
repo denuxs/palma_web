@@ -1,0 +1,30 @@
+[
+  {
+    "code": "LOT001",
+    "name": "Lote A"
+  },
+  {
+    "code": "LOT002",
+    "name": "Lote B"
+  },
+  {
+    "code": "LOT003",
+    "name": "Lote C"
+  },
+  {
+    "code": "LOT004",
+    "name": "Lote D"
+  },
+  {
+    "code": "LOT005",
+    "name": "Lote E"
+  },
+  {
+    "code": "LOT006",
+    "name": "Lote F"
+  },
+  {
+    "code": "LOT007",
+    "name": "Lote G"
+  }
+]

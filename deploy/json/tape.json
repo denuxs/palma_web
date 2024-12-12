@@ -1,0 +1,38 @@
+[
+  {
+    "color": "#FF0000",
+    "name": "Etapa inicial de floración",
+    "description": "Asignada en la semana 1 para marcar plantas que iniciaron la floración",
+    "week": 1
+  },
+  {
+    "color": "#0000FF",
+    "name": "Etapa de fertilización",
+    "description": "Asignada en la semana 5 para indicar plantas que necesitan fertilización",
+    "week": 5
+  },
+  {
+    "color": "#FFFF00",
+    "name": "Control de plagas",
+    "description": "Asignada en la semana 10 para marcar plantas para tratamiento de control de plagas",
+    "week": 10
+  },
+  {
+    "color": "#008000",
+    "name": "Preparación para poda",
+    "description": "Asignada en la semana 15 para plantas que están listas para la poda",
+    "week": 15
+  },
+  {
+    "color": "#FFA500",
+    "name": "Preparación para cosecha",
+    "description": "Asignada en la semana 20 para indicar plantas próximas a cosecha",
+    "week": 20
+  },
+  {
+    "color": "#800080",
+    "name": "Marcador de fin de ciclo",
+    "description": "Asignada en la semana 25 para indicar el final del ciclo de crecimiento actual",
+    "week": 25
+  }
+]

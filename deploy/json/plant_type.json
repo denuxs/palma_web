@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Cavendish",
+    "description": "El tipo más común y exportado a nivel mundial",
+    "category": "banana",
+    "code": "BAN001",
+    "price": 2.00
+  },
+  {
+    "name": "Orito",
+    "description": "Conocido también como banano bocadillo o banano bebé, es más pequeño y dulce",
+    "category": "banana",
+    "code": "BAN002",
+    "price": 2.50
+  },
+  {
+    "name": "Gros Michel",
+    "description": "Una variedad tradicional que fue la principal de exportación antes del Cavendish",
+    "category": "banana",
+    "code": "BAN003",
+    "price": 3.00
+  },
+  {
+    "name": "Banano Rojo",
+    "description": "Con cáscara rojiza y sabor más dulce que el Cavendish",
+    "category": "banana",
+    "code": "BAN004",
+    "price": 4.00
+  },
+  {
+    "name": "Banano Morado",
+    "description": "Pequeño, con sabor similar a la manzana",
+    "category": "banana",
+    "code": "BAN005",
+    "price": 5.00
+  },
+  {
+    "name": "Plátano Barraganete",
+    "description": "El tipo más común para cocinar; usado para patacones, chifles y bolones",
+    "category": "plantain",
+    "code": "PLA001",
+    "price": 4.70
+  },
+  {
+    "name": "Plátano Maqueño",
+    "description": "Más dulce, se usa tanto para freír como para asar",
+    "category": "plantain",
+    "code": "PLA002",
+    "price": 3.70
+  },
+  {
+    "name": "Plátano Dominico",
+    "description": "Pequeño y más dulce, similar al banano orito, pero se consume cocido",
+    "category": "plantain",
+    "code": "PLA003",
+    "price": 2.60
+  },
+  {
+    "name": "Plátano Verde",
+    "description": "Utilizado para preparar patacones, asado o cocido en diversas recetas típicas",
+    "category": "plantain",
+    "code": "PLA004",
+    "price": 3.60
+  }
+]

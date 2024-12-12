@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Agroinsumos del Ecuador",
+    "ruc": "0991234567001",
+    "mobile": "0998765432",
+    "address": "Av. de los Agricultores, Guayaquil",
+    "email": "info@agroinsumos.ec"
+  },
+  {
+    "name": "Fertilizantes Ecuatorianos",
+    "ruc": "0992345678002",
+    "mobile": "0987654321",
+    "address": "Calle Principal 123, Machala",
+    "email": "ventas@fertiecuador.com"
+  },
+  {
+    "name": "BananaTools S.A.",
+    "ruc": "0993456789003",
+    "mobile": "0996543210",
+    "address": "Km 15 Vía a Daule, Guayaquil",
+    "email": "contacto@bananatools.com"
+  },
+  {
+    "name": "Empresas Agrícolas Unidas",
+    "ruc": "0994567890004",
+    "mobile": "0981234567",
+    "address": "Ruta del Spondylus, Santa Elena",
+    "email": "info@empresasagricolas.com"
+  },
+  {
+    "name": "Equipos Agrícolas del Litoral",
+    "ruc": "0995678901005",
+    "mobile": "0994321654",
+    "address": "Av. 9 de Octubre 456, Guayaquil",
+    "email": "soporte@equiposdelitoral.com"
+  },
+  {
+    "name": "Finca Proyectos S.A.",
+    "ruc": "0996789012006",
+    "mobile": "0976543210",
+    "address": "Vía a La Costa Km 19, Guayaquil",
+    "email": "consultas@fincaproyectos.com"
+  },
+  {
+    "name": "InsuBananos Ecuador",
+    "ruc": "0997890123007",
+    "mobile": "0984321675",
+    "address": "Calle 10 de Agosto 789, Milagro",
+    "email": "ventas@insubananos.com"
+  },
+  {
+    "name": "Plásticos Agrícolas del Sur",
+    "ruc": "0998901234008",
+    "mobile": "0999876543",
+    "address": "Av. Perimetral 345, Guayaquil",
+    "email": "info@plasticosdelsur.ec"
+  },
+  {
+    "name": "Servicios Técnicos Agrícolas",
+    "ruc": "0999012345009",
+    "mobile": "0991234987",
+    "address": "Calle Colón 123, Babahoyo",
+    "email": "soporte@servicostecnicos.com"
+  },
+  {
+    "name": "Soluciones Bananas S.A.",
+    "ruc": "0990123456010",
+    "mobile": "0984563210",
+    "address": "Av. Machala 234, Machala",
+    "email": "contacto@solucionesbananas.com"
+  },
+  {
+    "name": "Agrobananas Ecuatorianas",
+    "ruc": "0991234567011",
+    "mobile": "0997654321",
+    "address": "Vía Quevedo Km 12, Quevedo",
+    "email": "info@agrobananas.ec"
+  },
+  {
+    "name": "Suministros Agrícolas del Pacífico",
+    "ruc": "0992345678012",
+    "mobile": "0991234789",
+    "address": "Av. 25 de Julio 567, Guayaquil",
+    "email": "ventas@suminagricolas.com"
+  },
+  {
+    "name": "Insumos Agrícolas Milagro",
+    "ruc": "0993456789013",
+    "mobile": "0987654345",
+    "address": "Calle Principal 234, Milagro",
+    "email": "info@insumosmilagro.com"
+  },
+  {
+    "name": "Tecnología Agrícola y Servicios",
+    "ruc": "0994567890014",
+    "mobile": "0995674321",
+    "address": "Calle Bolívar 789, Quevedo",
+    "email": "ventas@tecnologiaservicios.ec"
+  },
+  {
+    "name": "Grupo Agroindustrial Ecuador",
+    "ruc": "0995678901015",
+    "mobile": "0986543210",
+    "address": "Av. de los Bananeros 123, Guayaquil",
+    "email": "contacto@grupoagroindustrial.com"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Luz"
+  },
+  {
+    "name": "Agua"
+  },
+  {
+    "name": "Internet"
+  },
+  {
+    "name": "TV por cable"
+  },
+  {
+    "name": "Gas"
+  },
+  {
+    "name": "Teléfono fijo"
+  },
+  {
+    "name": "Teléfono móvil"
+  },
+  {
+    "name": "Alquiler"
+  },
+  {
+    "name": "Seguro"
+  },
+  {
+    "name": "Mantenimiento"
+  },
+  {
+    "name": "Comida"
+  },
+  {
+    "name": "Transporte"
+  },
+  {
+    "name": "Gastos de salud"
+  },
+  {
+    "name": "Educación"
+  },
+  {
+    "name": "Impuestos"
+  }
+]

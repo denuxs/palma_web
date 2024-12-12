@@ -1,0 +1,46 @@
+{% extends 'form.html' %}
+{% load static %}
+{% block assets_form %}
+    <script src="{% static 'lib/select2-4.0.13/js/select2.min.js' %}"></script>
+    <script src="{% static 'lib/select2-4.0.13/js/i18n/es.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'lib/select2-4.0.13/css/select2.min.css' %}">
+    <link rel="stylesheet" href="{% static 'lib/select2-4.0.13/css/select2-bootstrap4.min.css' %}">
+    <script src="{% static 'lib/tempusdominus-bootstrap-4.5.37.0/js/tempusdominus-bootstrap.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'lib/tempusdominus-bootstrap-4.5.37.0/css/tempusdominus-bootstrap.css' %}"/>
+    <script src="{% static 'tape_assignment/js/form.js' %}"></script>
+{% endblock %}
+
+{% block form_fields %}
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="form-group">
+                <label>{{ form.date_joined.label }}:</label>
+                {{ form.date_joined }}
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="form-group">
+                <label>{{ form.production.label }}:</label>
+                {{ form.production }}
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="select_all">Seleccionar todo:</label><br>
+        <input type="checkbox" name="select_all" id="select_all" class="form-control-checkbox">
+    </div>
+    <table width="100%" class="table table-bordered table-sm" id="tblPlants">
+        <thead>
+        <tr>
+            <th>Seleccionar</th>
+            <th>Planta</th>
+            <th>Lote</th>
+            <th>Cinta actual</th>
+            <th>Cinta siguiente</th>
+            <th>Observaciones</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+{% endblock %}

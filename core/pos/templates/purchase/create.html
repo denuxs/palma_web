@@ -1,0 +1,265 @@
+{% extends 'form.html' %}
+{% load widget_tweaks %}
+{% load static %}
+{% block assets_form %}
+    <script src="{% static 'lib/select2-4.0.13/js/select2.min.js' %}"></script>
+    <script src="{% static 'lib/select2-4.0.13/js/i18n/es.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'lib/select2-4.0.13/css/select2.min.css' %}">
+    <link rel="stylesheet" href="{% static 'lib/select2-4.0.13/css/select2-bootstrap4.min.css' %}">
+    <link rel="stylesheet" href="{% static 'lib/bootstrap-touchspin-4.2.5/css/jquery.bootstrap-touchspin.css' %}"/>
+    <script src="{% static 'lib/bootstrap-touchspin-4.2.5/js/jquery.bootstrap-touchspin.js' %}"></script>
+    <script src="{% static 'lib/tempusdominus-bootstrap-4.5.37.0/js/tempusdominus-bootstrap.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'lib/tempusdominus-bootstrap-4.5.37.0/css/tempusdominus-bootstrap.css' %}"/>
+    <script src="{% static 'purchase/js/form.js' %}"></script>
+{% endblock %}
+
+{% block form_fields %}
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="form-group">
+                <label>{{ form.number.label }}:</label>
+                {{ form.number }}
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                <label>{{ form.date_joined.label }}:</label>
+                {{ form.date_joined }}
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group">
+                <label>{{ form.provider.label }}:</label>
+                <div class="input-group input-group-search">
+                    {{ form.provider }}
+                    <div class="input-group-append">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-tasks"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" style="cursor: pointer;">
+                            <a class="dropdown-item btnAddProvider">
+                                <i class="fas fa-plus"></i> Crear proveedor
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="form-group">
+                <label>Búsqueda de insumos/equipos:</label>
+                <div class="input-group input-group-search">
+                    <input type="text" class="form-control" autocomplete="off" name="search_resource" placeholder="Ingrese el nombre de un insumo o equipo">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-tasks"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" style="cursor: pointer;">
+                            <a class="dropdown-item btnSearchResources">
+                                <i class="fas fa-search"></i> Buscar insumos/equipos
+                            </a>
+                            <a class="dropdown-item btnClearResources">
+                                <i class="fas fa-times"></i> Limpiar búsqueda
+                            </a>
+                            <a class="dropdown-item btnRemoveAllResources">
+                                <i class="fas fa-trash-alt"></i> Borrar todo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <table style="width:100%;" class="table table-bordered table-sm" id="tblResources">
+                <thead>
+                <tr>
+                    <th style="width: 5%;">Eliminar</th>
+                    <th style="width: 10%;">Código</th>
+                    <th style="width: 40%;">Producto</th>
+                    <th style="width: 20%;">Cantidad</th>
+                    <th style="width: 15%;">P./Unitario</th>
+                    <th style="width: 10%;">Subtotal</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row d-flex flex-row-reverse">
+        <div class="col-lg-4">
+            <div class="container">
+                <div class="row mb-2">
+                    <div class="col-lg-4 d-flex align-items-center">
+                        <span class="font-weight-bold">{{ form.subtotal.label|upper }}:</span>
+                    </div>
+                    <div class="col-lg-8 d-flex align-items-center justify-content-start">
+                        {{ form.subtotal }}
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-lg-4 d-flex align-items-center">
+                        <span class="font-weight-bold">{{ form.tax.label|upper }}:</span>
+                    </div>
+                    <div class="col-lg-8 d-flex align-items-center justify-content-start">
+                        {{ form.tax }}
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-lg-4 d-flex align-items-center">
+                        <span class="font-weight-bold">{{ form.total_tax.label|upper }}:</span>
+                    </div>
+                    <div class="col-lg-8 d-flex align-items-center justify-content-start">
+                        {{ form.total_tax }}
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-lg-4 d-flex align-items-center">
+                        <span class="font-weight-bold">{{ form.total_amount.label|upper }}:</span>
+                    </div>
+                    <div class="col-lg-8 d-flex align-items-center justify-content-start">
+                        {{ form.total_amount }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block buttons %}
+    <button type="submit" class="btn btn-primary btn-flat">
+        <i class="fas fa-save"></i> Guardar registro
+    </button>
+    <a href="{{ list_url }}" class="btn btn-danger btn-flat">
+        <i class="fas fa-times"></i> Cancelar
+    </a>
+{% endblock %}
+
+{% block content_form_before %}
+    <div id="myModalProvider" class="modal fade" tabindex="-1" role="dialog">
+        <form class="form" id="frmProvider" method="POST" autocomplete="off">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title font-weight-bold">
+                            <i class="fa fa-plus"></i> Nuevo registro de un proveedor
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            {% for field in frmProvider.visible_fields %}
+                                <div class="form-group">
+                                    <label>{{ field.label }}:</label>
+                                    {{ field|add_class:'form-control' }}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary btn-flat btn-block">
+                            <i class="fas fa-save"></i> Guardar registro
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <div id="myModalSearchResources" class="modal fade" tabindex="-2" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title font-weight-bold">
+                        <i class="fa fa-search"></i> Búsqueda de insumos/equipos
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <table style="width:100%;" class="table table-bordered table-sm" id="tblSearchResources">
+                            <thead>
+                            <tr>
+                                <th style="width: 5%;">Código</th>
+                                <th style="width: 30%;">Nombre</th>
+                                <th style="width: 20%;">T.Recurso</th>
+                                <th style="width: 10%;">Precio</th>
+                                <th style="width: 10%;">Stock</th>
+                                <th style="width: 15%;">¿Es un equipo?</th>
+                                <th style="width: 10%;">Agregar</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModalSeries" class="modal fade" tabindex="-3" role="dialog">
+        <form class="form" id="frmSeries" method="POST">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title font-weight-bold">
+                            <i class="fa fa-plus" aria-hidden="true"></i> Nuevo registro de un código de serie
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="form-group">
+                                <label>{{ form.serie.label }}:</label>
+                                <div class="input-group">
+                                    {{ form.serie }}
+                                    <div class="input-group-append">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Opciones</button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item btnGenerateSerie"><i class="fas fa-barcode"></i> Generar</a>
+                                            <a class="dropdown-item btnClearSerie"><i class="fa fa-times" aria-hidden="true"></i> Limpiar</a>
+                                            <a class="dropdown-item btnRemoveAllSeries"><i class="fa fa-trash-alt" aria-hidden="true"></i> Borrar todo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <table width="100%" class="table table-bordered table-sm" id="tblSeries">
+                                <thead>
+                                <tr>
+                                    <th>Eliminar</th>
+                                    <th>Serie</th>
+                                    <th>Garantía (Años)</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary btn-flat btn-block" type="submit">
+                            <i class="fa fa-plus" aria-hidden="true"></i> Agregar serie
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script type="application/javascript">
+        $(function () {
+            purchase.detail.tax = {{ company.tax }};
+            purchase.listResources();
+        });
+    </script>
+{% endblock %}

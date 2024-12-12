@@ -1,0 +1,92 @@
+[
+  {
+    "type_expense": "Agua",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 50.00
+  },
+  {
+    "type_expense": "Luz",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 75.00
+  },
+  {
+    "type_expense": "Internet",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 40.00
+  },
+  {
+    "type_expense": "TV por cable",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 30.00
+  },
+  {
+    "type_expense": "Gas",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 25.00
+  },
+  {
+    "type_expense": "Teléfono fijo",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 15.00
+  },
+  {
+    "type_expense": "Teléfono móvil",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 20.00
+  },
+  {
+    "type_expense": "Alquiler",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 500.00
+  },
+  {
+    "type_expense": "Seguro",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 100.00
+  },
+  {
+    "type_expense": "Mantenimiento",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 150.00
+  },
+  {
+    "type_expense": "Comida",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 200.00
+  },
+  {
+    "type_expense": "Transporte",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 60.00
+  },
+  {
+    "type_expense": "Gastos de salud",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 80.00
+  },
+  {
+    "type_expense": "Educación",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 250.00
+  },
+  {
+    "type_expense": "Impuestos",
+    "description": "S/N",
+    "date_joined": "2024-10-08",
+    "valor": 120.00
+  }
+]

@@ -1,0 +1,320 @@
+{% extends 'form.html' %}
+{% load static %}
+{% block assets_form %}
+    <script src="{% static 'lib/select2-4.0.13/js/select2.min.js' %}"></script>
+    <script src="{% static 'lib/select2-4.0.13/js/i18n/es.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'lib/select2-4.0.13/css/select2.min.css' %}">
+    <link rel="stylesheet" href="{% static 'lib/select2-4.0.13/css/select2-bootstrap4.min.css' %}">
+    <script src="{% static 'lib/bootstrap-daterangepicker-3.1/js/spanish.js' %}"></script>
+    <script src="{% static 'lib/bootstrap-daterangepicker-3.1/js/daterangepicker.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'lib/bootstrap-touchspin-4.2.5/css/jquery.bootstrap-touchspin.css' %}"/>
+    <script src="{% static 'lib/bootstrap-touchspin-4.2.5/js/jquery.bootstrap-touchspin.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'lib/bootstrap-daterangepicker-3.1/css/daterangepicker.css' %}"/>
+    <script src="{% static 'production/js/form.js' %}"></script>
+{% endblock %}
+
+{% block form_fields %}
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="form-group">
+                <label>{{ form.date_range.label }}:</label>
+                {{ form.date_range }}
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#menu1">
+                <i class="fas fa-male"></i> Contratos
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu2">
+                <i class="fas fa-boxes"></i> Insumos
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu3">
+                <i class="fas fa-weight"></i> Equipos
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu4">
+                <i class="fas fa-seedling"></i> Plantas
+            </a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane container-fluid mt-3 active" id="menu1">
+            <div class="form-group">
+                <label>Buscador de empleados con contrato:</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Ingrese un nombre o número de cedula" name="search_contract">
+                    <div class="input-group-append">
+                        <button class="btn btn-info btnSearchContract" type="button">
+                            <i class="fas fa-search"></i> Buscar
+                        </button>
+                        <button class="btn btn-primary btnClearContracts" type="button">
+                            <i class="fas fa-times"></i> Limpiar
+                        </button>
+                        <button class="btn btn-danger btnRemoveAllContracts" type="button">
+                            <i class="fas fa-trash"></i> Eliminar todo
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <table width="100%" class="table table-bordered table-sm" id="tblContracts">
+                <thead>
+                <tr>
+                    <th>Eliminar</th>
+                    <th>Empleado</th>
+                    <th>Número de cédula</th>
+                    <th>Teléfono</th>
+                    <th>Email</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane container-fluid mt-3 fade" id="menu2">
+            <div class="form-group">
+                <label>Buscador de insumos:</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Ingrese un nombre o código" name="search_supply">
+                    <div class="input-group-append">
+                        <button class="btn btn-info btnSearchSupply" type="button">
+                            <i class="fas fa-search"></i> Buscar
+                        </button>
+                        <button class="btn btn-primary btnClearSupply" type="button">
+                            <i class="fas fa-times"></i> Limpiar
+                        </button>
+                        <button class="btn btn-danger btnRemoveAllSupplies" type="button">
+                            <i class="fas fa-trash"></i> Eliminar todo
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <table width="100%" class="table table-bordered table-sm" id="tblSupplies">
+                <thead>
+                <tr>
+                    <th>Eliminar</th>
+                    <th>Código</th>
+                    <th>Nombre</th>
+                    <th>Tipo de Insnumo</th>
+                    <th>Stock</th>
+                    <th>Cantidad</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane container-fluid mt-3 fade" id="menu3">
+            <div class="form-group">
+                <label>Buscador de equipos:</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Ingrese un nombre, código o número de serie" name="search_equipment">
+                    <div class="input-group-append">
+                        <button class="btn btn-info btnSearchEquipment" type="button">
+                            <i class="fas fa-search"></i> Buscar
+                        </button>
+                        <button class="btn btn-primary btnClearEquipment" type="button">
+                            <i class="fas fa-times"></i> Limpiar
+                        </button>
+                        <button class="btn btn-danger btnRemoveAllEquipment" type="button">
+                            <i class="fas fa-trash"></i> Eliminar todo
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <table width="100%" class="table table-bordered table-sm" id="tblEquipment">
+                <thead>
+                <tr>
+                    <th>Eliminar</th>
+                    <th>Código</th>
+                    <th>Nombre</th>
+                    <th>Tipo de Equipo</th>
+                    <th>Serie</th>
+                    <th>Garantía (Años)</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane container-fluid mt-3 fade" id="menu4">
+            <div class="form-group">
+                <label>Buscador de plantas:</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Ingrese un nombre o código" name="search_plant">
+                    <div class="input-group-append">
+                        <button class="btn btn-info btnSearchPlant" type="button">
+                            <i class="fas fa-search"></i> Buscar
+                        </button>
+                        <button class="btn btn-primary btnClearPlant" type="button">
+                            <i class="fas fa-times"></i> Limpiar
+                        </button>
+                        <button class="btn btn-danger btnRemoveAllPlants" type="button">
+                            <i class="fas fa-trash"></i> Eliminar todo
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <table width="100%" class="table table-bordered table-sm" id="tblPlants">
+                <thead>
+                <tr>
+                    <th>Eliminar</th>
+                    <th>Nombre</th>
+                    <th>Código</th>
+                    <th>Categoría</th>
+                    <th>Lote</th>
+                    <th>Latitud</th>
+                    <th>Longitud</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="modal fade" id="myModalSearchPlants" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title font-weight-bold">
+                        <i class="fa fa-search"></i> Búsqueda de plantas
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table style="width:100%;" class="table table-bordered table-hover table-sm" id="tblSearchPlants">
+                                    <thead>
+                                    <tr>
+                                        <th style="width: 15%;">Código</th>
+                                        <th style="width: 20%;">Nombre</th>
+                                        <th style="width: 10%;">Categoría</th>
+                                        <th style="width: 10%;">Lote</th>
+                                        <th style="width: 15%;">Latitud</th>
+                                        <th style="width: 15%;">Longitud</th>
+                                        <th style="width: 10%;">Agregar</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModalSearchContracts" tabindex="-2" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title font-weight-bold">
+                        <i class="fa fa-search"></i> Búsqueda de empleados con contrato
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table style="width:100%;" class="table table-bordered table-hover table-sm" id="tblSearchContracts">
+                                    <thead>
+                                    <tr>
+                                        <th style="width: 30%;">Empleado</th>
+                                        <th style="width: 20%;">Número de cedula</th>
+                                        <th style="width: 20%;">Teléfono</th>
+                                        <th style="width: 20%;">Email</th>
+                                        <th style="width: 10%;">Agregar</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModalSearchSupplies" tabindex="-3" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title font-weight-bold">
+                        <i class="fa fa-search"></i> Búsqueda de insumos
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table style="width:100%;" class="table table-bordered table-hover table-sm" id="tblSearchSupplies">
+                                    <thead>
+                                    <tr>
+                                        <th style="width: 15%;">Código</th>
+                                        <th style="width: 30%;">Nombre</th>
+                                        <th style="width: 20%;">Tipo de insumo</th>
+                                        <th style="width: 15%;">Stock</th>
+                                        <th style="width: 10%;">Agregar</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModalSearchEquipment" tabindex="-4" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title font-weight-bold">
+                        <i class="fa fa-search"></i> Búsqueda de equipos
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table style="width:100%;" class="table table-bordered table-hover table-sm" id="tblSearchEquipment">
+                                    <thead>
+                                    <tr>
+                                        <th style="width: 10%;">Código</th>
+                                        <th style="width: 25%;">Nombre</th>
+                                        <th style="width: 15%;">Tipo de Equipo</th>
+                                        <th style="width: 15%;">Serie</th>
+                                        <th style="width: 20%;">Garantía (Años)</th>
+                                        <th style="width: 15%;">Agregar</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

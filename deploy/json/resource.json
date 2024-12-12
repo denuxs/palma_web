@@ -1,0 +1,156 @@
+[
+  {
+    "name": "POEMA SENIOR SALMON - 3 KG",
+    "code": "PROD-POESENIORSALMON3KGS",
+    "resource_type": "Herbicidas",
+    "price": 40.00,
+    "is_equipment": false
+  },
+  {
+    "name": "Pulverizadora TU-26",
+    "code": "PULVERIZADORA26",
+    "resource_type": "Equipos de fumigación",
+    "price": 160.00,
+    "is_equipment": true
+  },
+  {
+    "name": "Fertilizante Orgánico Premium - 25 KG",
+    "code": "FERT-ORGPRM25KG",
+    "resource_type": "Fertilizantes",
+    "price": 30.00,
+    "is_equipment": false
+  },
+  {
+    "name": "Machete Tramontina - 18 pulgadas",
+    "code": "MACH-TRAM18IN",
+    "resource_type": "Machetes",
+    "price": 12.50,
+    "is_equipment": false
+  },
+  {
+    "name": "Motobomba de Riego 5.5HP",
+    "code": "MOTOBOMBA55HP",
+    "resource_type": "Sistemas de riego",
+    "price": 350.00,
+    "is_equipment": true
+  },
+  {
+    "name": "Pesticida Agrícola Ultra - 1L",
+    "code": "PEST-ULTRA1L",
+    "resource_type": "Pesticidas",
+    "price": 15.00,
+    "is_equipment": false
+  },
+  {
+    "name": "Guantes de Nitrilo - Talla L",
+    "code": "GUANTES-NITL",
+    "resource_type": "Guantes de trabajo",
+    "price": 1.50,
+    "is_equipment": false
+  },
+  {
+    "name": "Carretilla de Acero - 80L",
+    "code": "CARRETILLA80L",
+    "resource_type": "Carretillas",
+    "price": 65.00,
+    "is_equipment": true
+  },
+  {
+    "name": "Bolsa Plástica para Racimos - 100 unidades",
+    "code": "BOL-RAC100UN",
+    "resource_type": "Bolsas plásticas para racimos",
+    "price": 20.00,
+    "is_equipment": false
+  },
+  {
+    "name": "Tractor Agrícola John Deere 5055E",
+    "code": "TRACT-JD5055E",
+    "resource_type": "Tractores",
+    "price": 25000.00,
+    "is_equipment": true
+  },
+  {
+    "name": "Pala de Metal Reforzada",
+    "code": "PALA-METREF",
+    "resource_type": "Palas",
+    "price": 7.00,
+    "is_equipment": false
+  },
+  {
+    "name": "Camión Isotérmico - 10T",
+    "code": "CAMION-ISO10T",
+    "resource_type": "Camiones de transporte",
+    "price": 45000.00,
+    "is_equipment": true
+  },
+  {
+    "name": "Herbicida Sistémico Concentrado - 5L",
+    "code": "HERB-SISCONC5L",
+    "resource_type": "Herbicidas",
+    "price": 55.00,
+    "is_equipment": false
+  },
+  {
+    "name": "Equipo de Fumigación Manual - 16L",
+    "code": "EQFUM-MAN16L",
+    "resource_type": "Equipos de fumigación",
+    "price": 75.00,
+    "is_equipment": true
+  },
+  {
+    "name": "Cinta de Amarre para Racimos - 200M",
+    "code": "CINTA-AMARR200M",
+    "resource_type": "Cintas de amarre",
+    "price": 18.00,
+    "is_equipment": false
+  },
+  {
+    "name": "Motoguadaña Husqvarna - 33CC",
+    "code": "MOTOGUA-HUS33CC",
+    "resource_type": "Motoguadañas",
+    "price": 200.00,
+    "is_equipment": true
+  },
+  {
+    "name": "Caja Plástica para Cosecha - 30L",
+    "code": "CAJA-PLAST30L",
+    "resource_type": "Cajas para cosecha",
+    "price": 10.00,
+    "is_equipment": false
+  },
+  {
+    "name": "Fertilizante Nitrogenado - 50 KG",
+    "code": "FERT-NIT50KG",
+    "resource_type": "Fertilizantes",
+    "price": 45.00,
+    "is_equipment": false
+  },
+  {
+    "name": "Camión Volquete - 8T",
+    "code": "CAMION-VOLQ8T",
+    "resource_type": "Camiones de transporte",
+    "price": 60000.00,
+    "is_equipment": true
+  },
+  {
+    "name": "Pulverizadora Honda GX35",
+    "code": "PULV-HONDAGX35",
+    "resource_type": "Equipos de fumigación",
+    "price": 180.00,
+    "is_equipment": true
+  },
+  {
+    "name": "Tractor Compacto Kubota B2320",
+    "code": "TRACT-KUBB2320",
+    "resource_type": "Tractores",
+    "price": 16000.00,
+    "is_equipment": true
+  },
+  {
+    "name": "Herbicida Selectivo - 2L",
+    "code": "HERB-SEL2L",
+    "resource_type": "Herbicidas",
+    "price": 28.00,
+    "is_equipment": false
+  }
+]

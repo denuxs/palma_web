@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Desodorante Antitranspirante",
+    "code": "190416001",
+    "description": "Desodorante en barra de 48 horas",
+    "category": "Higiene Personal",
+    "price": 3.50,
+    "pvp": 4.75
+  },
+  {
+    "name": "Jabón de Manos Líquido",
+    "code": "190416002",
+    "description": "Jabón líquido antibacterial de 500 ml",
+    "category": "Higiene Personal",
+    "price": 2.00,
+    "pvp": 2.70
+  },
+  {
+    "name": "Leche Entera UHT",
+    "code": "190416003",
+    "description": "Leche entera de larga duración de 1 litro",
+    "category": "Lácteos",
+    "price": 1.50,
+    "pvp": 2.00
+  },
+  {
+    "name": "Shampoo Anticaspa",
+    "code": "190416004",
+    "description": "Shampoo para el cuidado del cuero cabelludo",
+    "category": "Higiene Personal",
+    "price": 4.50,
+    "pvp": 6.00
+  },
+  {
+    "name": "Papel Higiénico 4 rollos",
+    "code": "190416005",
+    "description": "Papel higiénico doble hoja",
+    "category": "Hogar",
+    "price": 2.50,
+    "pvp": 3.40
+  },
+  {
+    "name": "Pasta Dental con Flúor",
+    "code": "190416006",
+    "description": "Pasta dental para protección completa",
+    "category": "Higiene Personal",
+    "price": 1.80,
+    "pvp": 2.40
+  },
+  {
+    "name": "Arroz Blanco 1kg",
+    "code": "190416007",
+    "description": "Arroz blanco de grano largo",
+    "category": "Alimentos",
+    "price": 1.20,
+    "pvp": 1.60
+  },
+  {
+    "name": "Azúcar Blanca 1kg",
+    "code": "190416008",
+    "description": "Azúcar refinada blanca",
+    "category": "Alimentos",
+    "price": 1.00,
+    "pvp": 1.35
+  },
+  {
+    "name": "Aceite de Cocina 1 litro",
+    "code": "190416009",
+    "description": "Aceite vegetal 100% puro",
+    "category": "Alimentos",
+    "price": 3.00,
+    "pvp": 4.00
+  },
+  {
+    "name": "Fideos Spaghetti 500g",
+    "code": "190416010",
+    "description": "Pasta de trigo tipo spaghetti",
+    "category": "Alimentos",
+    "price": 1.50,
+    "pvp": 2.00
+  },
+  {
+    "name": "Harina de Trigo 1kg",
+    "code": "190416011",
+    "description": "Harina de trigo refinada",
+    "category": "Alimentos",
+    "price": 1.40,
+    "pvp": 1.85
+  },
+  {
+    "name": "Café Soluble 200g",
+    "code": "190416012",
+    "description": "Café instantáneo",
+    "category": "Alimentos",
+    "price": 5.00,
+    "pvp": 6.75
+  },
+  {
+    "name": "Sal de Mesa 500g",
+    "code": "190416013",
+    "description": "Sal yodada para cocina",
+    "category": "Alimentos",
+    "price": 0.80,
+    "pvp": 1.10
+  },
+  {
+    "name": "Jabón en Barra 3 unidades",
+    "code": "190416014",
+    "description": "Jabón de tocador para el cuerpo",
+    "category": "Higiene Personal",
+    "price": 1.50,
+    "pvp": 2.00
+  },
+  {
+    "name": "Cloro Multiuso 1 litro",
+    "code": "190416015",
+    "description": "Cloro para desinfección y limpieza",
+    "category": "Hogar",
+    "price": 1.30,
+    "pvp": 1.75
+  },
+  {
+    "name": "Detergente en Polvo 1kg",
+    "code": "190416016",
+    "description": "Detergente para lavar ropa",
+    "category": "Hogar",
+    "price": 3.50,
+    "pvp": 4.70
+  },
+  {
+    "name": "Lejía para Ropa 1 litro",
+    "code": "190416017",
+    "description": "Lejía para ropa blanca",
+    "category": "Hogar",
+    "price": 2.00,
+    "pvp": 2.60
+  },
+  {
+    "name": "Avena en Hojuelas 500g",
+    "code": "190416018",
+    "description": "Avena para preparar coladas",
+    "category": "Alimentos",
+    "price": 1.20,
+    "pvp": 1.60
+  },
+  {
+    "name": "Galletas de Chocolate",
+    "code": "190416019",
+    "description": "Galletas rellenas de chocolate",
+    "category": "Alimentos",
+    "price": 1.00,
+    "pvp": 1.35
+  },
+  {
+    "name": "Atún en Lata 120g",
+    "code": "190416020",
+    "description": "Atún en aceite",
+    "category": "Alimentos",
+    "price": 2.00,
+    "pvp": 2.60
+  },
+  {
+    "name": "Jugo de Naranja 1 litro",
+    "code": "190416021",
+    "description": "Jugo de naranja natural",
+    "category": "Bebidas",
+    "price": 3.00,
+    "pvp": 4.00
+  },
+  {
+    "name": "Gaseosa Cola 2 litros",
+    "code": "190416022",
+    "description": "Bebida gaseosa sabor cola",
+    "category": "Bebidas",
+    "price": 1.80,
+    "pvp": 2.40
+  },
+  {
+    "name": "Pan Molde Blanco",
+    "code": "190416023",
+    "description": "Pan de molde blanco",
+    "category": "Alimentos",
+    "price": 1.50,
+    "pvp": 2.00
+  },
+  {
+    "name": "Yogurt Natural 1 litro",
+    "code": "190416024",
+    "description": "Yogurt sin azúcar añadido",
+    "category": "Lácteos",
+    "price": 2.50,
+    "pvp": 3.35
+  },
+  {
+    "name": "Mantequilla 250g",
+    "code": "190416025",
+    "description": "Mantequilla de vaca",
+    "category": "Lácteos",
+    "price": 2.00,
+    "pvp": 2.70
+  },
+  {
+    "name": "Huevos 12 unidades",
+    "code": "190416026",
+    "description": "Huevos frescos",
+    "category": "Alimentos",
+    "price": 2.50,
+    "pvp": 3.35
+  },
+  {
+    "name": "Crema Dental Infantil",
+    "code": "190416027",
+    "description": "Crema dental para niños con sabor a fresa",
+    "category": "Higiene Personal",
+    "price": 2.00,
+    "pvp": 2.70
+  },
+  {
+    "name": "Jabón Líquido para Ropa",
+    "code": "190416028",
+    "description": "Jabón líquido para ropa delicada",
+    "category": "Hogar",
+    "price": 4.50,
+    "pvp": 6.00
+  },
+  {
+    "name": "Desinfectante Multiuso 500ml",
+    "code": "190416029",
+    "description": "Desinfectante para superficies",
+    "category": "Hogar",
+    "price": 2.50,
+    "pvp": 3.40
+  },
+  {
+    "name": "Leche Descremada UHT",
+    "code": "190416030",
+    "description": "Leche descremada de larga duración de 1 litro",
+    "category": "Lácteos",
+    "price": 1.50,
+    "pvp": 2.00
+  }
+]

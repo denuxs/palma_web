@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Seguridad",
+    "icon": "fas fa-lock"
+  },
+  {
+    "name": "Administración",
+    "icon": "fas fa-hand-holding-usd"
+  },
+  {
+    "name": "Gestión productiva",
+    "icon": "fas fa-tractor"
+  },
+  {
+    "name": "Venta",
+    "icon": "fas fa-calculator"
+  },
+  {
+    "name": "Inventario",
+    "icon": "fas fa-boxes"
+  },
+   {
+    "name": "Reportes",
+    "icon": "fas fa-chart-pie"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "names": "William Jair Dávila Vargas",
+    "dni": "09283639933",
+    "mobile": "0979014551",
+    "address": "Milagro Ecuador, Cdla Dager",
+    "email": "williamjair94@hotmail.com"
+  },
+  {
+    "names": "Carlos Andrés Zambrano López",
+    "dni": "09123456789",
+    "mobile": "0998765432",
+    "address": "Guayaquil Ecuador, Alborada",
+    "email": "carlos.zambrano@gmail.com"
+  },
+  {
+    "names": "María Fernanda Torres Cedeño",
+    "dni": "09234567890",
+    "mobile": "0987654321",
+    "address": "Quito Ecuador, Av. Amazonas",
+    "email": "mfernanda.torres@yahoo.com"
+  },
+  {
+    "names": "José Miguel Páez Castro",
+    "dni": "09111223344",
+    "mobile": "0994321876",
+    "address": "Cuenca Ecuador, Calle Bolívar",
+    "email": "jose.paez@hotmail.com"
+  },
+  {
+    "names": "Ana Carolina García Muñoz",
+    "dni": "09222334455",
+    "mobile": "0976543210",
+    "address": "Loja Ecuador, Cdla El Valle",
+    "email": "anacarolina.gm@gmail.com"
+  },
+  {
+    "names": "Juan Pablo Espinosa Ramos",
+    "dni": "09233445566",
+    "mobile": "0993456789",
+    "address": "Manta Ecuador, Ciudadela Universitaria",
+    "email": "juan.espinosa@yahoo.com"
+  },
+  {
+    "names": "Daniela Sofía Álvarez Silva",
+    "dni": "09344556677",
+    "mobile": "0981234567",
+    "address": "Machala Ecuador, Av. 25 de Junio",
+    "email": "daniela.alvarez@gmail.com"
+  },
+  {
+    "names": "Ricardo Antonio Mena Delgado",
+    "dni": "09155667788",
+    "mobile": "0996543210",
+    "address": "Santo Domingo Ecuador, Av. Tsáchila",
+    "email": "ricardo.mena@hotmail.com"
+  },
+  {
+    "names": "Gabriela Elena Vélez Suárez",
+    "dni": "09266778899",
+    "mobile": "0978765432",
+    "address": "Portoviejo Ecuador, Calle 15 de Abril",
+    "email": "gaby.velez@gmail.com"
+  },
+  {
+    "names": "Santiago Arturo Mejía Espinoza",
+    "dni": "09377889900",
+    "mobile": "0995432187",
+    "address": "Ambato Ecuador, Cdla Huachi",
+    "email": "santiago.mejia@hotmail.com"
+  },
+  {
+    "names": "Luis Alejandro Pérez Villacís",
+    "dni": "09188990011",
+    "mobile": "0987654545",
+    "address": "Esmeraldas Ecuador, Calle Simón Bolívar",
+    "email": "luis.perez@gmail.com"
+  },
+  {
+    "names": "Paola Verónica Paredes Jiménez",
+    "dni": "09299001122",
+    "mobile": "0999876543",
+    "address": "Ibarra Ecuador, Av. El Retorno",
+    "email": "paola.paredes@yahoo.com"
+  },
+  {
+    "names": "Hernán Alfredo Estévez Arcos",
+    "dni": "09301112233",
+    "mobile": "0993216547",
+    "address": "Riobamba Ecuador, Av. Daniel León Borja",
+    "email": "hernan.estevez@hotmail.com"
+  },
+  {
+    "names": "Lucía Isabel Guerrero Plaza",
+    "dni": "09112233445",
+    "mobile": "0976549876",
+    "address": "Tulcán Ecuador, Calle Bolívar",
+    "email": "lucia.guerrero@gmail.com"
+  },
+  {
+    "names": "Felipe Andrés Morales Peralta",
+    "dni": "09223344556",
+    "mobile": "0989876543",
+    "address": "Guaranda Ecuador, Av. 10 de Agosto",
+    "email": "felipe.morales@hotmail.com"
+  }
+]

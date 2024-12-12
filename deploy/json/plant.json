@@ -1,0 +1,162 @@
+[
+  {
+    "plant_type": "Plátano Barraganete",
+    "lot": "LOT001",
+    "code": "PLANT001",
+    "latitude": "-2.133923780398375",
+    "longitude": "-79.59050564410009",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Orito",
+    "lot": "LOT002",
+    "code": "PLANT002",
+    "latitude": "-2.134012342112345",
+    "longitude": "-79.59123456789012",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Plátano Barraganete",
+    "lot": "LOT003",
+    "code": "PLANT003",
+    "latitude": "-2.135678901234567",
+    "longitude": "-79.59234567890123",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Plátano Barraganete",
+    "lot": "LOT004",
+    "code": "PLANT004",
+    "latitude": "-2.136789012345678",
+    "longitude": "-79.59345678901234",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Plátano Maqueño",
+    "lot": "LOT005",
+    "code": "PLANT005",
+    "latitude": "-2.137890123456789",
+    "longitude": "-79.59456789012345",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Plátano Barraganete",
+    "lot": "LOT006",
+    "code": "PLANT006",
+    "latitude": "-2.138901234567890",
+    "longitude": "-79.59567890123456",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Plátano Dominico",
+    "lot": "LOT007",
+    "code": "PLANT007",
+    "latitude": "-2.139012345678901",
+    "longitude": "-79.59678901234567",
+    "status": "seedling"
+  },
+  {
+    "plant_type": "Plátano Barraganete",
+    "lot": "LOT001",
+    "code": "PLANT008",
+    "latitude": "-2.140123456789012",
+    "longitude": "-79.59789012345678",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Banano Morado",
+    "lot": "LOT001",
+    "code": "PLANT009",
+    "latitude": "-2.141234567890123",
+    "longitude": "-79.59890123456789",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Plátano Verde",
+    "lot": "LOT001",
+    "code": "PLANT010",
+    "latitude": "-2.142345678901234",
+    "longitude": "-79.59901234567890",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Orito",
+    "lot": "LOT001",
+    "code": "PLANT011",
+    "latitude": "-2.143456789012345",
+    "longitude": "-79.59012345678901",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Plátano Barraganete",
+    "lot": "LOT002",
+    "code": "PLANT012",
+    "latitude": "-2.144567890123456",
+    "longitude": "-79.59123456789012",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Plátano Barraganete",
+    "lot": "LOT002",
+    "code": "PLANT013",
+    "latitude": "-2.145678901234567",
+    "longitude": "-79.59234567890123",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Plátano Maqueño",
+    "lot": "LOT002",
+    "code": "PLANT014",
+    "latitude": "-2.146789012345678",
+    "longitude": "-79.59345678901234",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Plátano Barraganete",
+    "lot": "LOT002",
+    "code": "PLANT015",
+    "latitude": "-2.147890123456789",
+    "longitude": "-79.59456789012345",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Plátano Dominico",
+    "lot": "LOT003",
+    "code": "PLANT016",
+    "latitude": "-2.148901234567890",
+    "longitude": "-79.59567890123456",
+    "status": "seedling"
+  },
+  {
+    "plant_type": "Plátano Barraganete",
+    "lot": "LOT004",
+    "code": "PLANT017",
+    "latitude": "-2.149012345678901",
+    "longitude": "-79.59678901234567",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Banano Morado",
+    "lot": "LOT004",
+    "code": "PLANT018",
+    "latitude": "-2.150123456789012",
+    "longitude": "-79.59789012345678",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Plátano Verde",
+    "lot": "LOT004",
+    "code": "PLANT019",
+    "latitude": "-2.151234567890123",
+    "longitude": "-79.59890123456789",
+    "status": "planted"
+  },
+  {
+    "plant_type": "Plátano Barraganete",
+    "lot": "LOT004",
+    "code": "PLANT020",
+    "latitude": "-2.152345678901234",
+    "longitude": "-79.59901234567890",
+    "status": "planted"
+  }
+]
